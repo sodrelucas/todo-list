@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(85, 84, 84);
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.container {
+  width: 550px;
+  min-height: 300px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  margin-top: 8%;
+  margin-bottom: 40px;
+}
+
+.inputItem {
+  width: 350px;
+  font-size: 22px;
+  border: none;
+  border-bottom: 1px solid;
+  height: 35px;
+  margin-right: 10px;
+  color: rgb(100, 100, 100);
+  padding-left: 10px;
+}
+
+.addItem {
+  width: 50px;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  background-color: rgb(98, 150, 228);
+  transition: 0.2s;
+  border: none;
+}
+
+.addItem:hover {
+  background-color: rgb(81, 125, 190);
+}
+
+.list {
+  width: 75%;
+  font-size: 22px;
+  margin: 10px auto 30px;
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+.list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  height: 35px;
+  border-radius: 5px;
+  background-color: rgb(230, 230, 230);
+}
+
+li i {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: grey;
+}
+
+i:hover {
+  color: rgb(98, 150, 228);
+}
+
+.deleteTask {
+  border: none;
+  font-size: 22px;
+}
